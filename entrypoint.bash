@@ -51,6 +51,6 @@ git remote -v
 git remote update
 
 git checkout "${HEAD_BRANCH}"
-git pull origin "${HEAD_BRANCH}"
+git pull origin "${HEAD_BRANCH}" --rebase
 git pull origin "${BASE_REF}" --rebase
 git push origin "${HEAD_BRANCH}"
