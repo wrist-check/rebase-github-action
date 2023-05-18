@@ -51,4 +51,4 @@ git remote -v
 git remote update
 
 git rebase --autosquash --autostash "${BASE_REF}" "${HEAD_BRANCH}"
-git push --force origin "${HEAD_BRANCH}"
+git push origin "${HEAD_BRANCH}"
